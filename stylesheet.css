@@ -1,104 +1,217 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Progate</title>
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="responsive.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div class="header-left">
-          <img src="img/emblemmatic-jinten-logo-0.png">
-        </div>
+*{
+  box-sizing: border-box;
+}
 
-        <!--モバイル用のヘッダーのメニューアイコン -->
-        <span class="fa fa-bars menu-icon"></span>
+body{
+  margin:0;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
 
-        <div class="header-right">
-          <a href="#">お気に入り</a>
-          <a href="#">新規登録</a>
-          <a href="#" class="login">ログイン</a>
-        </div>
-      </div>
-    </header>
+a{
+  text-decoration: none;
+}
 
-    <div class="top-wrapper">
-      <div class="container">
-        <h1>さぁ、</h1>
-        <h1>飲みに行こう</h1>
-        <p>恋人がほしいけど上手く話せない、出会いがない。</p>
-        <p>そンな人には飲みコンで一気に仲良くなってしまいましょう！！</p>
-        <div class="btn-wrapper">
-          <a href="#drink-type" class="btn signup">飲み会はこちら👈</a>
-        </div>
-      </div>
-    </div>
-    <div class="lesson-wrapper">
-      <div class="container">
-        <div class="heading">
-          <h2 id="drink-type">What are you going to drink tonight?</h2>
-        </div>
-        <div class="lessons">
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="img/854481648010e616ee87d26f72448bb4_m.jpg">
-              <a href="#">がっつり飲み</a>
-            </div>
-            <p class="text-contents">
-              飲みと言ったらやっぱりビール！！そんなビールが好きな人中心の飲み会<br>
-              酒豪のみんなで潰れない程度に飲み明かそう！
-            </p>
-          </div>
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="img/1c0d496fa82a4e578f007b7aaf9514b1_s.jpg">
-              <a href="#">かる〜く飲み</a>
-            </div>
-            <p class="text-contents">
-              お酒は嫌いじゃないけどそんなに飲めないって人はこちら！！<br>
-              カクテルや酎ハイでかる〜くほろ酔いになっちゃいましょう。
-            </p>
-          </div>
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="img/strongzeroIMGL1598_TP_V.jpg">
-              <a href="#">宅飲み風</a>
-            </div>
-            <p class="text-contents">
-              大学生の大好き宅飲み<br>
-              大人になったあなたもたまにはアットホームな宅飲みで親近感アップ間違いなし！
-            </p>
-          </div>
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="img/VV9V9A3003_TP_V.jpg">
-              <a href="#">ハシゴ飲み</a>
-            </div>
-            <p class="text-contents">
-              お酒1杯でどんどん次の店へ！<br>
-              いろんなお店の色んなお酒を飲み尽くそう
-            </p>
-          </div>
-          <div class="clear"></div>
-        </div>
-      </div>
-    </div>
-    <div class="message-wrapper">
-      <div class="container">
-        <div class="heading">
-          <h2>募集中の飲み会</h2>
-        </div>
-      </div>
-    </div>
-    <footer>
-      <div class="container">
-        <img src="img/emblemmatic-jinten-logo-0.png">
-        <p>豊かな明日は豊かな仲間と</p>
-      </div>
-    </footer>
-  </body>
-</html>
+.container{
+  max-width: 1170px;
+  width:100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container img{
+  width:100px;
+  height: 100px;
+}
+
+.top-wrapper{
+  padding: 180px 0 100px 0;
+  background: url("img/865cd29572f8b6a0a6ac2c9d9bdc08ee_l.jpg");
+  background-size: cover;
+  color: green;
+  text-align: center;
+}
+
+.top-wrapper p{
+  color: black;
+  font-weight: bold;
+}
+
+.top-wrapper h1{
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p{
+  opacity: 0.7;
+}
+
+.btn-wrapper{
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p{
+  margin: 10px 0;
+}
+
+.signup{
+  background-color:#239b76;
+  font-size: 30px;
+}
+
+
+.btn{
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.btn:hover{
+  opacity: 1;
+}
+
+.fa{
+  margin-right: 5px;
+}
+
+header{
+  height: 65px;
+  width: 100%;
+  background-color:rgba(34,49,52,0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo{
+  width: 124px;
+  margin-top:20px;
+}
+
+.header-left img{
+  float: left;
+  width: 70px;
+  height: 70px;
+  padding-bottom: 5px;
+}
+
+.header-right{
+  float:right;
+  margin-right: -25px;
+}
+
+.header-right a{
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover{
+  background-color: rgba(255,255,255,0.3);
+}
+
+.lesson-wrapper{
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading{
+  padding-top: 80px;
+  padding-bottom:50px;
+  color: #5f5d60;
+}
+
+.heading h2{
+  font-weight: normal;
+}
+
+.lesson{
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon{
+  position: relative;
+}
+
+.lesson-icon img{
+  width: 150px;
+  height:150px;
+  border-radius: 50px;
+}
+
+.lesson-icon a{
+  position: absolute;
+  display: block;
+  width: 100%;
+  color: black;
+}
+
+.text-contents{
+  width: 80%;
+  padding-top: 50px;
+  display: inline-block;
+  margin-top: 15px;
+  font-size:13px;
+  color: #b3aeb5;
+}
+
+.heading h3{
+  font-weight: normal;
+}
+
+.message-wrapper{
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message{
+  padding: 15px 40px;
+  background-color: #5bca88;
+  cursor: pointer;
+  bax-shadow: 0.7px #1a7940;
+}
+
+.message:active{
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.footer img{
+  width: 125px;
+}
+
+.footer p{
+  color: #b3aeb5;
+  font-size: 12px;
+  float: left;
+}
+
+footer{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.menu-icon{
+  color:white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.clear{
+  clear: left;
+}
