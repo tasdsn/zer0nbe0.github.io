@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Progate</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <img src="img/emblemmatic-jinten-logo-0.png">
+        </div>
+
+        <!--モバイル用のヘッダーのメニューアイコン -->
+        <span class="fa fa-bars menu-icon"></span>
+
+        <div class="header-right">
+          <a href="#">お気に入り</a>
+          <a href="#">新規登録</a>
+          <a href="#" class="login">ログイン</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="top-wrapper">
+      <div class="container">
+        <h1>さぁ、</h1>
+        <h1>飲みに行こう</h1>
+        <p>恋人がほしいけど上手く話せない、出会いがない。</p>
+        <p>そンな人には飲みコンで一気に仲良くなってしまいましょう！！</p>
+        <div class="btn-wrapper">
+          <a href="#drink-type" class="btn signup">飲み会はこちら👈</a>
+        </div>
+      </div>
+    </div>
+    <div class="lesson-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2 id="drink-type">What are you going to drink tonight?</h2>
+        </div>
+        <div class="lessons">
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="img/854481648010e616ee87d26f72448bb4_m.jpg">
+              <a href="#">がっつり飲み</a>
+            </div>
+            <p class="text-contents">
+              飲みと言ったらやっぱりビール！！そんなビールが好きな人中心の飲み会<br>
+              酒豪のみんなで潰れない程度に飲み明かそう！
+            </p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="img/1c0d496fa82a4e578f007b7aaf9514b1_s.jpg">
+              <a href="#">かる〜く飲み</a>
+            </div>
+            <p class="text-contents">
+              お酒は嫌いじゃないけどそんなに飲めないって人はこちら！！<br>
+              カクテルや酎ハイでかる〜くほろ酔いになっちゃいましょう。
+            </p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="img/strongzeroIMGL1598_TP_V.jpg">
+              <a href="#">宅飲み風</a>
+            </div>
+            <p class="text-contents">
+              大学生の大好き宅飲み<br>
+              大人になったあなたもたまにはアットホームな宅飲みで親近感アップ間違いなし！
+            </p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="img/VV9V9A3003_TP_V.jpg">
+              <a href="#">ハシゴ飲み</a>
+            </div>
+            <p class="text-contents">
+              お酒1杯でどんどん次の店へ！<br>
+              いろんなお店の色んなお酒を飲み尽くそう
+            </p>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <div class="message-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2>募集中の飲み会</h2>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <img src="img/emblemmatic-jinten-logo-0.png">
+        <p>豊かな明日は豊かな仲間と</p>
+      </div>
+    </footer>
+  </body>
+</html>
