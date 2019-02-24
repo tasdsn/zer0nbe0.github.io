@@ -11,6 +11,9 @@ a{
   text-decoration: none;
 }
 
+.clear{
+  clear: left;
+}
 .container{
   max-width: 1170px;
   width:100%;
@@ -25,7 +28,7 @@ a{
 
 .top-wrapper{
   padding: 180px 0 100px 0;
-  background-image: url("865cd29572f8b6a0a6ac2c9d9bdc08ee_l.jpg");
+  background: url("865cd29572f8b6a0a6ac2c9d9bdc08ee_l.jpg");
   background-size: cover;
   color: green;
   text-align: center;
@@ -210,8 +213,4 @@ footer{
   font-size: 25px;
   padding: 21px 0;
   display: none;
-}
-
-.clear{
-  clear: left;
 }
