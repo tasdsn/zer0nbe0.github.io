@@ -1,5 +1,5 @@
 /*タブレット向けレイアウト*/
-@media all and(max-width: 1000px){
+@media (max-width: 1000px){
   .top-wrapper h1{
     font-size: 32px;
   }
@@ -19,7 +19,12 @@
 }
 
 /*モバイル向けレイアウト*/
-@media all and(max-width: 670px) {
+@media (max-width: 670px) {
+
+  .lesson{
+    width: 100%;
+  }
+
   .header-right {
     display: none;
   }
@@ -36,10 +41,6 @@
     width: 100%;
   }
 
-  .facebook{
-    margin-bottom: 10px;
-  }
-
   .top-wrapper{
     text-align: left;
   }
@@ -50,10 +51,6 @@
 
   .top-wrapper p{
     font-size: 14px;
-  }
-
-  .lesson{
-    width: 100%;
   }
 
   .message-wrapper .btn{
